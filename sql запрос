@@ -1,0 +1,3 @@
+SELECT id, request_date, subject, status, priority
+FROM Requests
+ORDER BY request_date DESC;
